@@ -1,0 +1,19 @@
+# 内容：tag_ban_rules
+# 数量：13条20211018
+
+
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
+URL-REGEX,(.*\.||)(pincong|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net|rocks)
+URL-REGEX,(.*\.||)(muni|gov|12377|12315|talk.news.pts.org|creaders|zhuichaguoji|efcc.org|cyberpolice|aboluowang|tuidang|epochtimes|dafahao|falundafa|minghui|falunaz|zhengjian|110.qq|mingjingnews|inmediahk|xinsheng|bannedbook|ntdtv|falungong|12321|secretchina|elplural|epochweekly|cn.rfi)\.(cz|cn|com|org|net|club|net|fr|tw|eu|info|me)
+
+URL-REGEX,(.*\.||)(gov|12377|12315|talk.news.pts.org|creaders|zhuichaguoji|efcc.org|cyberpolice|aboluowang|tuidang|epochtimes|dafahao|falundafa|minghui|falunaz|zhengjian|110.qq|mingjingnews|inmediahk|xinsheng|bannedbook|ntdtv|falungong|12321|secretchina|elplural|epochweekly|cn.rfi)\.(cn|com|org|net|club|net|fr|tw|eu|info|me)
+
+URL-REGEX,(.*\.||)(speedtest)\.(net)
+URL-REGEX,(.*\.||)(fast)\.(com)
+URL-REGEX,(.*\.||)(fast|speedtest|cachefly|hetzner|cloudtest)\.(org|com|net|de|cc)
